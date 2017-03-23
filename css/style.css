@@ -104,7 +104,7 @@ h2 {
     font-weight: 700;
     color: #000;
     letter-spacing: 0;
-	color: #D4AF37;
+    color: #D4AF37;
 }
 
 h3 {
@@ -113,8 +113,8 @@ h3 {
     line-height: 1.2;
     letter-spacing: 0;
     margin-bottom: 30px;
-	color: #d93d3d;
-	    text-shadow: 1px 1px #D4AF37;
+    color: #d93d3d;
+        text-shadow: 1px 1px #D4AF37;
 }
 
 h4 {
@@ -123,7 +123,7 @@ h4 {
     line-height: 1.2;
     letter-spacing: 0;
     margin-bottom: 30px;
-	color: #D4AF37;
+    color: #D4AF37;
 }
 
 h5 {
@@ -145,7 +145,7 @@ p {
     /* font-weight: bold; */
     font-style: italic;
     margin-bottom: 40px;
-	    color: #d93d3d;
+        color: #d93d3d;
 }
 
 h3+p {
@@ -563,13 +563,13 @@ PRIMARY BANNER
 
 .primary-banner h1{    
     color:#fff;
-	    text-shadow: 2px 4px rgba(199, 183, 183, 0.38);
+        text-shadow: 2px 4px rgba(199, 183, 183, 0.38);
 }
 
 .primary-banner h1 span{  
     color:#00ff55;
     font-size: 70px;
-	text-shadow:none;
+    text-shadow:none;
 }
 
 
@@ -941,7 +941,7 @@ body .bg-video-container {
 /*New Styling*/
 
 .second-bg{
-	background: #fff;
+    background: #fff;
     min-height: 700px;
    min-height: 545px;
     max-width: 800px;
@@ -953,11 +953,11 @@ body .bg-video-container {
     margin: 0 auto;
     position: relative;
     padding: 30px 30px 74px;
-	width:100%;
+    width:100%;
 }
 
 .second-bg:before{
-	content: "";
+    content: "";
     background: url("https://raw.githubusercontent.com/sadiyaparveen/abrarwedssadiya.github.io/master/Images/border-1.png") no-repeat;
     left: 5px;
     top: 41px;
@@ -976,7 +976,7 @@ body .bg-video-container {
 }
 
 .slick-initialized .slick-slide.image-container{
-	    display: flex!important;
+        display: flex!important;
     display: -webkit-flex;
     -webkit-flex-direction: column;
     flex-direction: column;
@@ -986,44 +986,59 @@ body .bg-video-container {
 }
 
 .cta-button{
-	margin-bottom:86px;
+    margin-bottom:86px;
 }
 
 @media(max-width:767px){
-	.second-bg:before{
-		display:none;
-	}
-	
+    .second-bg:before{
+        display:none;
+    }
+    
 .second-bg{
-	margin:0px 15px;
+    margin: 0 15px;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    display: flex!important;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
 .top-text{
-	font-size:14px;
+    font-size:14px;
 }
 
 
 #date-container{
-	display:none;
+    //display:none;
 }
 
 .second-bg{
-	width:auto;
+    width:auto;
 }
 
 p,h1,h2,h3,h4{
-	text-align:center;
+    text-align:center;
 }
 
 .img-slider .image-container{
-	height:100vh;
-	padding:0
+    height:100vh;
+    padding:0
 }
 
 
 h4{
-	font-size:25px;
+    font-size:25px;
 }
 
+.cta-button{
+    margin-bottom:0;
+}
 
 
 
