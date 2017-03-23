@@ -807,14 +807,14 @@ body .bg-video-container {
 
 .img-slider .slick-next.slick-arrow {
     right: -80px;
-    background: url('https://raw.githubusercontent.com/sadiyaparveen/wedding/master/Images/next.svg') no-repeat;
+    background: url('https://raw.githubusercontent.com/sadiyaparveen/abrarwedssadiya.github.io/master/Images/next.svg') no-repeat;
     width: 20px;
     background-size: 100%
 }
 
 .img-slider .slick-arrow.slick-prev {
     left: -80px;
-    background: url('https://raw.githubusercontent.com/sadiyaparveen/wedding/master/Images/prev.svg') no-repeat;
+    background: url('https://raw.githubusercontent.com/sadiyaparveen/abrarwedssadiya.github.io/master/Images/prev.svg') no-repeat;
     width: 20px;
     background-size: 100%;
 }
@@ -958,7 +958,7 @@ body .bg-video-container {
 
 .second-bg:before{
 	content: "";
-    background: url("https://raw.githubusercontent.com/sadiyaparveen/wedding/master/Images/border-1.png") no-repeat;
+    background: url("https://raw.githubusercontent.com/sadiyaparveen/abrarwedssadiya.github.io/master/Images/border-1.png") no-repeat;
     left: 5px;
     top: 41px;
     width: 580px;
