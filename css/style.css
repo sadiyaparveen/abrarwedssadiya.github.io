@@ -994,13 +994,14 @@ body .bg-video-container {
 @media(max-width:767px){
   .second-bg:before{
 	content: "";
-    background: url('https://github.com/sadiyaparveen/abrarwedssadiya.github.io/blob/master/Images/border-31.jpg') no-repeat;
+    background: url('https://github.com/sadiyaparveen/abrarwedssadiya.github.io/master/Images/border-31.jpg') no-repeat;
     left: 0;
-	right:0;
-    top: 50px;
+	  right:0;
+    top: 5px;
     width: 285px;
     height: 100%;
     position: absolute;
+	  margin:0 auto;
 }
     
 .second-bg{
