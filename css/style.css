@@ -974,6 +974,7 @@ body .bg-video-container {
     text-shadow: 1px 1px rgba(249, 208, 74, 0.82);
     color: #d43778;
     font-weight: 500;
+    margin-bottom:20px;
 }
 
 .slick-initialized .slick-slide.image-container{
