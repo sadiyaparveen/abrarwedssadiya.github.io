@@ -992,9 +992,16 @@ body .bg-video-container {
 }
 
 @media(max-width:767px){
-    .second-bg:before{
-        display:none;
-    }
+  .second-bg:before{
+	content: "";
+    background: url(../images/border-31.jpg) no-repeat;
+    left: 0;
+	right:0;
+    top: 50px;
+    width: 285px;
+    height: 100%;
+    position: absolute;
+}
     
 .second-bg{
     margin: 0 15px;
